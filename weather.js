@@ -1,5 +1,5 @@
 var request = require('request');
-var APIId = '8357a79e0d8eb5ed4e5e7e5e06cfeb6a';
+var APIId = '#'; //Add the APIId you obtain after logging in
 module.exports = function (location, callback) {
 
   var url = 'http://api.openweathermap.org/data/2.5/weather?q='+encodeURIComponent(location)+'&units=metric'+'&appid='+APIId;
